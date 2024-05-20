@@ -177,3 +177,13 @@ font-family: "Courier Prime", monospace;
     padding: 40px;
     margin-top: 40px;
 }
+
+
+
+@media screen and (max-width: 530px) {
+    .parent{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
