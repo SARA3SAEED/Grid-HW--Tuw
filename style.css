@@ -182,8 +182,184 @@ font-family: "Courier Prime", monospace;
 
 @media screen and (max-width: 530px) {
     .parent{
-        display: flex;
-        flex-wrap: wrap;
-        
+        background-color: rgba(255, 254, 254, 0.596);
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 325px  325px 325px 325px 325px 325px 325px 325px 325px 325px;
     }
+
+    
+.parent .image1{
+    grid-column: 1/-1;
+    background-color: rgb(243, 247, 250);
+    padding: 70px;
+    text-align: center; 
+    font-family: "Courier Prime", monospace;
+ 
+}
+
+
+
+.parent .image2{
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 1fr ;
+    text-align: left;
+    font-family: "Courier Prime", monospace;
+}
+.image2 h3{
+    text-align: center;
+    margin-left: 40px;
+}
+.image2 img{
+    margin-top: 40px;
+    width: 205px;
+}
+.image2 p{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: rgb(106, 112, 117);
+}
+
+/*--------------*/
+.parent .image3{
+    grid-column: 1/-1;
+    background-color: rgb(248, 95, 52);
+    color: white;
+    text-align: center;
+
+}
+
+.image3 a{
+    color: rgb(244, 158, 53);
+    font-weight: 700;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+
+.parent .image4{
+    grid-column: 1/-1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+   
+}
+
+.image4 img{
+    margin-top: 8px;
+    margin-right: 140px;
+}
+.image4 .div1{
+text-align: center;
+margin-top: 120px;
+font-family: "Courier Prime", monospace;
+
+}
+
+.image4 p{
+    color: rgb(116, 116, 112);
+}
+
+.image4 a{
+    text-decoration: none;
+    color: rgb(51, 166, 179);
+
+}
+
+
+.parent .image5{
+    grid-column: 1/-1;
+    grid-row: 5/7;
+    background-color: rgba(87, 5, 164, 0.712);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+ /*--------------*/
+.parent .image6{
+    grid-column:1/-1;
+    grid-row: 7/8;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+
+}
+
+.image6 a{
+    text-decoration: none;
+    color: rgb(117, 117, 240);
+    font-weight: 700;
+    
+}
+
+.image6 img{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.parent .image7{
+    grid-column: 1/-1;
+    grid-row: 8/9;
+    background-color: rgba(67, 188, 148, 0.804);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: grid;
+    
+}
+
+.image7 img {
+    width: 470px;
+    margin-top: 40px;
+}
+/*--------------*/
+.parent .image8{
+    grid-column: 1/-1;
+    /* grid-row: 4/5; */
+    background-color: rgb(58, 181, 212);
+    display: grid;
+    color: white;
+    font-family: "Courier Prime", monospace;
+   
+}
+
+.image8 img{
+    margin-left: 140px;
+    margin-top:  60px;
+}
+
+.image8 h3{
+    margin-bottom: 50px ;
+    margin-left: 50px ;
+}
+
+
+.parent .image9{
+    padding: 20px;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Courier Prime", monospace;
+}
+
+.parent .image10{
+    grid-column:1/-1;
+    background-color: black;
+    grid-template-columns: 1fr 1fr ;
+    color: aliceblue;
+    display: grid;
+    font-family: "Courier Prime", monospace;
+
+}
+.image10 img{
+ width: 220px;        
+}
+.image10 h3{
+    padding: 40px;
+    margin-top: 40px;
+}
+
+
 }
